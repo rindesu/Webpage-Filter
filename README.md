@@ -14,9 +14,9 @@ manifest.json: 控制整个插件行为的配置文件。</br>
 background.js: 后台文件。调用ChromeAPI，与浏览器进行交互。</br>
 icon.png, icon_128.png: 插件的图标，在manifest.json里声明过。</br>
 main.js: 自定义文件，实现过滤功能。包含的函数如下：</br>
-  Rank(): 实现关键字排行。调用：</br>
-    countKW(): 统计每个关键字出现的次数。</br>
-    mysortKW(): 实现关键字的key-val排序。</br>
+  	Rank(): 实现关键字排行。调用：</br>
+    		countKW(): 统计每个关键字出现的次数。</br>
+    		mysortKW(): 实现关键字的key-val排序。</br>
 	SemanticAna(): 实现简单的语义分析及预警。调用：</br>
     countALLPinyin(): 统计每个敏感词和关键字出现的次数。</br>
     sortALLPinyin(): 对每个敏感词和关键字出现的次数进行排序。</br>
