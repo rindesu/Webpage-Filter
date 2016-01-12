@@ -1,7 +1,7 @@
 # Webpage-Filter
 
 BBS/论坛智能过滤程序 某课程设计</br>
-(teamates: Chen Yu, Wei Wang, and Jiali Huang)</br>
+(teammates: Chen Yu, Wei Wang, and Jiali Huang)</br>
 </br>
 【目的及要求】</br>
 将BBS/论坛过滤程序实现成为一个chrome插件，对BBS/论坛的特定页面实现如下功能：</br>
